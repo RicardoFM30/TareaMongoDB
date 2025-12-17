@@ -151,21 +151,14 @@ exportar_a_json_consultas(query_inventada, "inventada.json")
 
 print("\n--- PARTE 5 ---")
 
-# Consulta para obtener todas las series con puntuación no nula
-query = {"puntuacion": {"$exists": True}}
-series_con_puntuacion = coleccion_series.find(query)
+resultado = list(coleccion_series.aggregate([
+    {"$match": {"puntuacion": {"$exists": True}}},
+    {"$group": {"_id": None, "media_puntuacion": {"$avg": "$puntuacion"}}}
+]))
 
-suma = 0
-contador = 0
-
-for serie in series_con_puntuacion:
-    suma += serie["puntuacion"]
-    contador += 1
-
-if contador > 0:
-    media = suma / contador
+if resultado:
+    media = resultado[0]["media_puntuacion"]
     print(f"La media de puntuación de todas las series es: {media:.2f}")
-# Por si algún casual ninguna serie tuviera puntuación
 else:
     print("No hay series con puntuación para calcular la media")
 
@@ -176,7 +169,6 @@ coleccion_detalles = db["detalles_produccion"]
 # Limpiar colección nueva
 coleccion_detalles.delete_many({})
 
-fake = Faker("es_ES")
 paises = ["EE.UU.", "Corea del Sur", "España", "Reino Unido", "Canadá"]
 
 # Consulta para obtener los títulos de la colección series
@@ -197,25 +189,35 @@ for titulo in titulos:
 coleccion_detalles.insert_many(detalles_list)
 print(f"Insertados {len(detalles_list)} documentos en detalles_produccion")
 
-resultados = []
-
-# Primera consulta en coleccion_series
-# Series que estén finalizadas y con puntuación > 8.0
-series_filtradas = coleccion_series.find({"finalizada": True, "puntuacion": {"$gt": 8.0}})
-
-# Segunda consulta en detalles_produccion
-# Usando la lista del primer filtro de las series, usando el nombre de estas hacer
-# la segunda consulta
-for serie in series_filtradas:
-    detalle = coleccion_detalles.find_one({"titulo": serie["titulo"], "pais_origen": "EE.UU."})
-    if detalle:
-        resultados.append({
-            "titulo": serie["titulo"],
-            "puntuacion": serie["puntuacion"],
-            "pais_origen": detalle["pais_origen"],
-            "reparto_principal": detalle["reparto_principal"],
-            "presupuesto_por_episodio": detalle["presupuesto_por_episodio"]
-        })
+resultados = list(coleccion_series.aggregate([
+    {
+        "$match": {"finalizada": True, "puntuacion": {"$gt": 8.0}}
+    },
+    {
+        "$lookup": {
+            "from": "detalles_produccion",
+            "localField": "titulo",
+            "foreignField": "titulo",
+            "as": "detalle"
+        }
+    },
+    {
+        "$unwind": "$detalle"
+    },
+    {
+        "$match": {"detalle.pais_origen": "EE.UU."}
+    },
+    {
+        "$project": {
+            "_id": 0,
+            "titulo": 1,
+            "puntuacion": 1,
+            "pais_origen": "$detalle.pais_origen",
+            "reparto_principal": "$detalle.reparto_principal",
+            "presupuesto_por_episodio": "$detalle.presupuesto_por_episodio"
+        }
+    }
+]))
 
 # Mostrar resultados
 print(f"\nSeries finalizadas, puntuación > 8 y país EE.UU.: {len(resultados)}")

@@ -1,181 +1,106 @@
 [
     {
-        "_id": "6942dd601c871c98260b33fe",
-        "titulo": "Primeras cambio solución",
+        "_id": "6942e0d1b70554d7dab1d2f2",
+        "titulo": "Origen necesidad ejemplo vuelve",
         "plataforma": "Amazon Prime",
-        "temporadas": 9,
+        "temporadas": 8,
         "genero": [
-            "Fantasía",
-            "Sci-Fi"
+            "Comedia",
+            "Acción"
         ],
-        "puntuacion": 8.3,
+        "puntuacion": 9.5,
         "finalizada": false,
-        "año_estreno": 2025
+        "año_estreno": 2018
     },
     {
-        "_id": "6942dd601c871c98260b3402",
-        "titulo": "Voz",
-        "plataforma": "Netflix",
+        "_id": "6942e0d1b70554d7dab1d2f9",
+        "titulo": "Aparece",
+        "plataforma": "Amazon Prime",
         "temporadas": 10,
         "genero": [
             "Drama",
-            "Acción"
+            "Sci-Fi"
         ],
-        "puntuacion": 9.3,
+        "puntuacion": 8.8,
         "finalizada": true,
-        "año_estreno": 2008
+        "año_estreno": 2017
     },
     {
-        "_id": "6942dd601c871c98260b3408",
-        "titulo": "Hizo países entre",
-        "plataforma": "Apple TV+",
+        "_id": "6942e0d1b70554d7dab1d2fc",
+        "titulo": "Hacia c",
+        "plataforma": "HBO",
         "temporadas": 10,
         "genero": [
             "Comedia",
-            "Acción"
+            "Fantasía"
         ],
-        "puntuacion": 8.2,
-        "finalizada": true,
-        "año_estreno": 2001
+        "puntuacion": 9.0,
+        "finalizada": false,
+        "año_estreno": 2026
     },
     {
-        "_id": "6942dd601c871c98260b3409",
-        "titulo": "Razón aumento vista cualquier",
-        "plataforma": "HBO",
-        "temporadas": 6,
-        "genero": [
-            "Comedia",
-            "Drama"
-        ],
-        "puntuacion": 8.7,
-        "finalizada": true,
-        "año_estreno": 2007
-    },
-    {
-        "_id": "6942dd601c871c98260b340a",
-        "titulo": "Esa otras",
-        "plataforma": "Apple TV+",
+        "_id": "6942e0d1b70554d7dab1d301",
+        "titulo": "Proyectos mujeres mi",
+        "plataforma": "Disney+",
         "temporadas": 7,
         "genero": [
             "Acción",
-            "Drama"
+            "Fantasía"
         ],
-        "puntuacion": 9.2,
+        "puntuacion": 8.9,
         "finalizada": false,
-        "año_estreno": 2003
+        "año_estreno": 2016
     },
     {
-        "_id": "6942dd601c871c98260b340b",
-        "titulo": "Paciente gobierno atención",
-        "plataforma": "Amazon Prime",
-        "temporadas": 6,
-        "genero": [
-            "Comedia",
-            "Drama"
-        ],
-        "puntuacion": 8.7,
-        "finalizada": true,
-        "año_estreno": 2021
-    },
-    {
-        "_id": "6942dd601c871c98260b3410",
-        "titulo": "Difícil pudo buena",
-        "plataforma": "Apple TV+",
-        "temporadas": 10,
-        "genero": [
-            "Comedia",
-            "Sci-Fi"
-        ],
-        "puntuacion": 8.6,
-        "finalizada": false,
-        "año_estreno": 2024
-    },
-    {
-        "_id": "6942dd601c871c98260b3411",
-        "titulo": "Otros esas juez",
+        "_id": "6942e0d1b70554d7dab1d30a",
+        "titulo": "Obra",
         "plataforma": "HBO",
         "temporadas": 7,
         "genero": [
-            "Sci-Fi",
+            "Acción",
+            "Thriller"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2023
+    },
+    {
+        "_id": "6942e0d1b70554d7dab1d30b",
+        "titulo": "Estas participación existen",
+        "plataforma": "HBO",
+        "temporadas": 10,
+        "genero": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "puntuacion": 9.1,
+        "finalizada": true,
+        "año_estreno": 2023
+    },
+    {
+        "_id": "6942e0d1b70554d7dab1d30f",
+        "titulo": "Esta familia han",
+        "plataforma": "Apple TV+",
+        "temporadas": 9,
+        "genero": [
+            "Comedia",
             "Acción"
         ],
-        "puntuacion": 8.8,
-        "finalizada": false,
+        "puntuacion": 9.0,
+        "finalizada": true,
         "año_estreno": 2022
     },
     {
-        "_id": "6942dd601c871c98260b341f",
-        "titulo": "Mí trata",
+        "_id": "6942e0d1b70554d7dab1d310",
+        "titulo": "Participación cosa",
         "plataforma": "Disney+",
-        "temporadas": 8,
+        "temporadas": 10,
         "genero": [
             "Drama",
             "Thriller"
         ],
-        "puntuacion": 8.6,
-        "finalizada": false,
-        "año_estreno": 2024
-    },
-    {
-        "_id": "6942dd601c871c98260b3425",
-        "titulo": "Análisis dicen origen",
-        "plataforma": "Apple TV+",
-        "temporadas": 10,
-        "genero": [
-            "Acción",
-            "Sci-Fi"
-        ],
-        "puntuacion": 8.2,
-        "finalizada": false,
-        "año_estreno": 2003
-    },
-    {
-        "_id": "6942dd601c871c98260b342c",
-        "titulo": "Diversas cinco",
-        "plataforma": "Disney+",
-        "temporadas": 8,
-        "genero": [
-            "Comedia",
-            "Acción"
-        ],
-        "puntuacion": 8.9,
-        "finalizada": true,
-        "año_estreno": 2013
-    },
-    {
-        "_id": "6942dd601c871c98260b3432",
-        "titulo": "Señora",
-        "temporadas": 10,
-        "genero": [
-            "Comedia",
-            "Fantasía"
-        ],
         "puntuacion": 9.1,
         "finalizada": true,
-        "año_estreno": 2019
-    },
-    {
-        "_id": "6942dd601c871c98260b3434",
-        "titulo": "Metros hablar el",
-        "temporadas": 6,
-        "genero": [
-            "Sci-Fi",
-            "Comedia"
-        ],
-        "puntuacion": 8.4,
-        "finalizada": false,
-        "año_estreno": 2022
-    },
-    {
-        "_id": "6942dd601c871c98260b3436",
-        "titulo": "Podemos uno",
-        "temporadas": 8,
-        "genero": [
-            "Sci-Fi",
-            "Fantasía"
-        ],
-        "puntuacion": 8.3,
-        "finalizada": false,
-        "año_estreno": 2008
+        "año_estreno": 2016
     }
 ]

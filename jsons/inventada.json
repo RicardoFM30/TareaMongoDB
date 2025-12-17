@@ -1,38 +1,38 @@
 [
     {
-        "_id": "6942dd601c871c98260b3433",
-        "titulo": "Máximo capacidad",
-        "plataforma": "Amazon Prime",
-        "temporadas": 3,
+        "_id": "6942e0d1b70554d7dab1d31b",
+        "titulo": "Cabo análisis",
+        "plataforma": "Netflix",
+        "temporadas": 5,
         "genero": [
             "Acción",
-            "Comedia"
+            "Thriller"
         ],
         "finalizada": true,
-        "año_estreno": 2000
+        "año_estreno": 2016
     },
     {
-        "_id": "6942dd601c871c98260b3437",
-        "titulo": "Ser médico",
-        "plataforma": "Apple TV+",
-        "temporadas": 3,
+        "_id": "6942e0d1b70554d7dab1d31f",
+        "titulo": "Sería los acciones",
+        "plataforma": "Amazon Prime",
+        "temporadas": 4,
         "genero": [
-            "Drama",
-            "Comedia"
-        ],
-        "finalizada": false,
-        "año_estreno": 2021
-    },
-    {
-        "_id": "6942dd601c871c98260b3439",
-        "titulo": "Posición dice",
-        "plataforma": "Apple TV+",
-        "temporadas": 7,
-        "genero": [
-            "Drama",
+            "Thriller",
             "Sci-Fi"
         ],
         "finalizada": true,
-        "año_estreno": 2023
+        "año_estreno": 2005
+    },
+    {
+        "_id": "6942e0d1b70554d7dab1d321",
+        "titulo": "Sé muy ministro",
+        "plataforma": "Amazon Prime",
+        "temporadas": 3,
+        "genero": [
+            "Comedia",
+            "Fantasía"
+        ],
+        "finalizada": false,
+        "año_estreno": 2005
     }
 ]
