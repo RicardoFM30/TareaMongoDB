@@ -1,0 +1,39 @@
+[
+    {
+        "_id": "6942d83e372e2b9a90dcb456",
+        "titulo": "Empresas explicó",
+        "plataforma": "Apple TV+",
+        "temporadas": 3,
+        "genero": [
+            "Thriller",
+            "Comedia"
+        ],
+        "puntuacion": 6.7,
+        "finalizada": false,
+        "año_estreno": 2020
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb482",
+        "titulo": "Soy donde",
+        "plataforma": "Netflix",
+        "genero": [
+            "Drama",
+            "Comedia"
+        ],
+        "puntuacion": 9.4,
+        "finalizada": false,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb485",
+        "titulo": "Jefe existen presidente",
+        "temporadas": 8,
+        "genero": [
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 8.2,
+        "finalizada": false,
+        "año_estreno": 2024
+    }
+]

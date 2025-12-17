@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "6942d83e372e2b9a90dcb483",
+        "titulo": "Ya alguien",
+        "plataforma": "Disney+",
+        "temporadas": 1,
+        "genero": [
+            "Acción",
+            "Thriller"
+        ],
+        "finalizada": true,
+        "año_estreno": 2011
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb484",
+        "titulo": "Productos vez iglesia",
+        "plataforma": "Netflix",
+        "temporadas": 4,
+        "genero": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "finalizada": false,
+        "año_estreno": 2001
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb488",
+        "titulo": "Entrada real control",
+        "plataforma": "Netflix",
+        "temporadas": 6,
+        "genero": [
+            "Comedia",
+            "Drama"
+        ],
+        "finalizada": false,
+        "año_estreno": 2019
+    }
+]

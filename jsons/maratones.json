@@ -1,0 +1,180 @@
+[
+    {
+        "_id": "6942d83e372e2b9a90dcb451",
+        "titulo": "Propuesta claro",
+        "plataforma": "Netflix",
+        "temporadas": 6,
+        "genero": [
+            "Acción",
+            "Thriller"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": false,
+        "año_estreno": 2022
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb459",
+        "titulo": "Libro rodríguez",
+        "plataforma": "Apple TV+",
+        "temporadas": 7,
+        "genero": [
+            "Thriller",
+            "Fantasía"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2005
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb45f",
+        "titulo": "Situación hubo",
+        "plataforma": "Disney+",
+        "temporadas": 6,
+        "genero": [
+            "Acción",
+            "Sci-Fi"
+        ],
+        "puntuacion": 8.3,
+        "finalizada": true,
+        "año_estreno": 2003
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb462",
+        "titulo": "Siendo donde semana",
+        "plataforma": "Apple TV+",
+        "temporadas": 6,
+        "genero": [
+            "Fantasía",
+            "Drama"
+        ],
+        "puntuacion": 8.1,
+        "finalizada": true,
+        "año_estreno": 2026
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb467",
+        "titulo": "Tener",
+        "plataforma": "Netflix",
+        "temporadas": 9,
+        "genero": [
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 8.5,
+        "finalizada": false,
+        "año_estreno": 2000
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb468",
+        "titulo": "Iglesia calidad mitad",
+        "plataforma": "Disney+",
+        "temporadas": 7,
+        "genero": [
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "puntuacion": 9.3,
+        "finalizada": false,
+        "año_estreno": 2001
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb46b",
+        "titulo": "Lejos",
+        "plataforma": "Netflix",
+        "temporadas": 8,
+        "genero": [
+            "Thriller",
+            "Drama"
+        ],
+        "puntuacion": 9.3,
+        "finalizada": false,
+        "año_estreno": 2016
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb478",
+        "titulo": "Términos viene b",
+        "plataforma": "Netflix",
+        "temporadas": 9,
+        "genero": [
+            "Fantasía",
+            "Acción"
+        ],
+        "puntuacion": 9.3,
+        "finalizada": false,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb47c",
+        "titulo": "Salida partir junio",
+        "plataforma": "Amazon Prime",
+        "temporadas": 9,
+        "genero": [
+            "Acción",
+            "Drama"
+        ],
+        "puntuacion": 9.1,
+        "finalizada": false,
+        "año_estreno": 2011
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb47d",
+        "titulo": "Habían",
+        "plataforma": "Apple TV+",
+        "temporadas": 9,
+        "genero": [
+            "Thriller",
+            "Acción"
+        ],
+        "puntuacion": 8.6,
+        "finalizada": false,
+        "año_estreno": 2000
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb485",
+        "titulo": "Jefe existen presidente",
+        "temporadas": 8,
+        "genero": [
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 8.2,
+        "finalizada": false,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb486",
+        "titulo": "Deben temas por",
+        "plataforma": "Amazon Prime",
+        "temporadas": 7,
+        "genero": [
+            "Acción",
+            "Fantasía"
+        ],
+        "puntuacion": 8.6,
+        "finalizada": true
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb487",
+        "titulo": "Ese juan méxico",
+        "plataforma": "Disney+",
+        "temporadas": 7,
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "puntuacion": 8.4,
+        "finalizada": true
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb48b",
+        "titulo": "El somos",
+        "temporadas": 10,
+        "genero": [
+            "Sci-Fi",
+            "Fantasía"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2002
+    }
+]

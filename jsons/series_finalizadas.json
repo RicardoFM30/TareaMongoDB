@@ -1,0 +1,375 @@
+[
+    {
+        "_id": "6942d83e372e2b9a90dcb450",
+        "titulo": "Manuel va",
+        "plataforma": "Netflix",
+        "temporadas": 10,
+        "genero": [
+            "Fantasía",
+            "Comedia"
+        ],
+        "puntuacion": 6.8,
+        "finalizada": true,
+        "año_estreno": 2016
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb452",
+        "titulo": "Dan algo donde",
+        "plataforma": "Amazon Prime",
+        "temporadas": 2,
+        "genero": [
+            "Acción",
+            "Sci-Fi"
+        ],
+        "puntuacion": 7.2,
+        "finalizada": true,
+        "año_estreno": 2019
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb453",
+        "titulo": "Autoridades período van debía",
+        "plataforma": "Netflix",
+        "temporadas": 1,
+        "genero": [
+            "Drama",
+            "Comedia"
+        ],
+        "puntuacion": 8.1,
+        "finalizada": true,
+        "año_estreno": 2005
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb454",
+        "titulo": "Estoy seis cierto haber",
+        "plataforma": "Amazon Prime",
+        "temporadas": 7,
+        "genero": [
+            "Drama",
+            "Sci-Fi"
+        ],
+        "puntuacion": 6.6,
+        "finalizada": true,
+        "año_estreno": 2016
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb455",
+        "titulo": "Medidas ayuda",
+        "plataforma": "Disney+",
+        "temporadas": 1,
+        "genero": [
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 8.3,
+        "finalizada": true,
+        "año_estreno": 2005
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb458",
+        "titulo": "Eso cuales tiempos",
+        "plataforma": "Netflix",
+        "temporadas": 4,
+        "genero": [
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 7.4,
+        "finalizada": true,
+        "año_estreno": 2001
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb459",
+        "titulo": "Libro rodríguez",
+        "plataforma": "Apple TV+",
+        "temporadas": 7,
+        "genero": [
+            "Thriller",
+            "Fantasía"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2005
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb45a",
+        "titulo": "Voluntad ve",
+        "plataforma": "Disney+",
+        "temporadas": 6,
+        "genero": [
+            "Thriller",
+            "Drama"
+        ],
+        "puntuacion": 6.7,
+        "finalizada": true,
+        "año_estreno": 2025
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb45b",
+        "titulo": "Encima ciento",
+        "plataforma": "Netflix",
+        "temporadas": 7,
+        "genero": [
+            "Acción",
+            "Drama"
+        ],
+        "puntuacion": 7.8,
+        "finalizada": true,
+        "año_estreno": 2010
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb45e",
+        "titulo": "Ante cine",
+        "plataforma": "HBO",
+        "temporadas": 5,
+        "genero": [
+            "Drama",
+            "Comedia"
+        ],
+        "puntuacion": 8.5,
+        "finalizada": true,
+        "año_estreno": 2008
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb45f",
+        "titulo": "Situación hubo",
+        "plataforma": "Disney+",
+        "temporadas": 6,
+        "genero": [
+            "Acción",
+            "Sci-Fi"
+        ],
+        "puntuacion": 8.3,
+        "finalizada": true,
+        "año_estreno": 2003
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb460",
+        "titulo": "Radio trabajadores deja",
+        "plataforma": "HBO",
+        "temporadas": 7,
+        "genero": [
+            "Drama",
+            "Thriller"
+        ],
+        "puntuacion": 7.5,
+        "finalizada": true,
+        "año_estreno": 2008
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb462",
+        "titulo": "Siendo donde semana",
+        "plataforma": "Apple TV+",
+        "temporadas": 6,
+        "genero": [
+            "Fantasía",
+            "Drama"
+        ],
+        "puntuacion": 8.1,
+        "finalizada": true,
+        "año_estreno": 2026
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb463",
+        "titulo": "Española estado",
+        "plataforma": "Disney+",
+        "temporadas": 3,
+        "genero": [
+            "Drama",
+            "Comedia"
+        ],
+        "puntuacion": 8.9,
+        "finalizada": true,
+        "año_estreno": 2004
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb464",
+        "titulo": "Fuerza carlos",
+        "plataforma": "Disney+",
+        "temporadas": 4,
+        "genero": [
+            "Fantasía",
+            "Acción"
+        ],
+        "puntuacion": 9.1,
+        "finalizada": true,
+        "año_estreno": 2011
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb46a",
+        "titulo": "Será estar",
+        "plataforma": "HBO",
+        "temporadas": 2,
+        "genero": [
+            "Drama",
+            "Thriller"
+        ],
+        "puntuacion": 8.4,
+        "finalizada": true,
+        "año_estreno": 2011
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb46d",
+        "titulo": "Necesario productos teoría",
+        "plataforma": "Apple TV+",
+        "temporadas": 2,
+        "genero": [
+            "Comedia",
+            "Fantasía"
+        ],
+        "puntuacion": 8.0,
+        "finalizada": true,
+        "año_estreno": 2015
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb46e",
+        "titulo": "Donde y social",
+        "plataforma": "Apple TV+",
+        "temporadas": 3,
+        "genero": [
+            "Fantasía",
+            "Acción"
+        ],
+        "puntuacion": 8.8,
+        "finalizada": true,
+        "año_estreno": 2011
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb46f",
+        "titulo": "Carta dos",
+        "plataforma": "Apple TV+",
+        "temporadas": 5,
+        "genero": [
+            "Fantasía",
+            "Acción"
+        ],
+        "puntuacion": 7.9,
+        "finalizada": true,
+        "año_estreno": 2020
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb473",
+        "titulo": "C diciembre",
+        "plataforma": "Amazon Prime",
+        "temporadas": 4,
+        "genero": [
+            "Drama",
+            "Acción"
+        ],
+        "puntuacion": 7.0,
+        "finalizada": true,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb476",
+        "titulo": "Ciudad informe momentos",
+        "plataforma": "Apple TV+",
+        "temporadas": 5,
+        "genero": [
+            "Sci-Fi",
+            "Acción"
+        ],
+        "puntuacion": 6.6,
+        "finalizada": true,
+        "año_estreno": 2005
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb477",
+        "titulo": "Quiere pública años",
+        "plataforma": "Apple TV+",
+        "temporadas": 1,
+        "genero": [
+            "Drama",
+            "Thriller"
+        ],
+        "puntuacion": 8.1,
+        "finalizada": true,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb47a",
+        "titulo": "Público última pero río",
+        "plataforma": "HBO",
+        "temporadas": 10,
+        "genero": [
+            "Sci-Fi",
+            "Fantasía"
+        ],
+        "puntuacion": 7.2,
+        "finalizada": true,
+        "año_estreno": 2013
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb47b",
+        "titulo": "Semana",
+        "plataforma": "Amazon Prime",
+        "temporadas": 9,
+        "genero": [
+            "Sci-Fi",
+            "Thriller"
+        ],
+        "puntuacion": 7.1,
+        "finalizada": true,
+        "año_estreno": 2015
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb47f",
+        "titulo": "M marzo",
+        "plataforma": "Netflix",
+        "temporadas": 7,
+        "genero": [
+            "Drama",
+            "Acción"
+        ],
+        "puntuacion": 6.5,
+        "finalizada": true,
+        "año_estreno": 2007
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb483",
+        "titulo": "Ya alguien",
+        "plataforma": "Disney+",
+        "temporadas": 1,
+        "genero": [
+            "Acción",
+            "Thriller"
+        ],
+        "finalizada": true,
+        "año_estreno": 2011
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb486",
+        "titulo": "Deben temas por",
+        "plataforma": "Amazon Prime",
+        "temporadas": 7,
+        "genero": [
+            "Acción",
+            "Fantasía"
+        ],
+        "puntuacion": 8.6,
+        "finalizada": true
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb487",
+        "titulo": "Ese juan méxico",
+        "plataforma": "Disney+",
+        "temporadas": 7,
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "puntuacion": 8.4,
+        "finalizada": true
+    },
+    {
+        "_id": "6942d83e372e2b9a90dcb48b",
+        "titulo": "El somos",
+        "temporadas": 10,
+        "genero": [
+            "Sci-Fi",
+            "Fantasía"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2002
+    }
+]
