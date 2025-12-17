@@ -1,0 +1,5 @@
+pymongo~=4.15.5
+
+python-dotenv~=1.0.1
+
+faker>=24.0
