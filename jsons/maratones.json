@@ -1,180 +1,181 @@
 [
     {
-        "_id": "6942d83e372e2b9a90dcb451",
-        "titulo": "Propuesta claro",
-        "plataforma": "Netflix",
-        "temporadas": 6,
-        "genero": [
-            "Acción",
-            "Thriller"
-        ],
-        "puntuacion": 8.7,
-        "finalizada": false,
-        "año_estreno": 2022
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb459",
-        "titulo": "Libro rodríguez",
-        "plataforma": "Apple TV+",
-        "temporadas": 7,
-        "genero": [
-            "Thriller",
-            "Fantasía"
-        ],
-        "puntuacion": 8.7,
-        "finalizada": true,
-        "año_estreno": 2005
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb45f",
-        "titulo": "Situación hubo",
-        "plataforma": "Disney+",
-        "temporadas": 6,
-        "genero": [
-            "Acción",
-            "Sci-Fi"
-        ],
-        "puntuacion": 8.3,
-        "finalizada": true,
-        "año_estreno": 2003
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb462",
-        "titulo": "Siendo donde semana",
-        "plataforma": "Apple TV+",
-        "temporadas": 6,
-        "genero": [
-            "Fantasía",
-            "Drama"
-        ],
-        "puntuacion": 8.1,
-        "finalizada": true,
-        "año_estreno": 2026
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb467",
-        "titulo": "Tener",
-        "plataforma": "Netflix",
-        "temporadas": 9,
-        "genero": [
-            "Sci-Fi",
-            "Comedia"
-        ],
-        "puntuacion": 8.5,
-        "finalizada": false,
-        "año_estreno": 2000
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb468",
-        "titulo": "Iglesia calidad mitad",
-        "plataforma": "Disney+",
-        "temporadas": 7,
-        "genero": [
-            "Sci-Fi",
-            "Thriller"
-        ],
-        "puntuacion": 9.3,
-        "finalizada": false,
-        "año_estreno": 2001
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb46b",
-        "titulo": "Lejos",
-        "plataforma": "Netflix",
-        "temporadas": 8,
-        "genero": [
-            "Thriller",
-            "Drama"
-        ],
-        "puntuacion": 9.3,
-        "finalizada": false,
-        "año_estreno": 2016
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb478",
-        "titulo": "Términos viene b",
-        "plataforma": "Netflix",
-        "temporadas": 9,
-        "genero": [
-            "Fantasía",
-            "Acción"
-        ],
-        "puntuacion": 9.3,
-        "finalizada": false,
-        "año_estreno": 2021
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb47c",
-        "titulo": "Salida partir junio",
+        "_id": "6942dd601c871c98260b33fe",
+        "titulo": "Primeras cambio solución",
         "plataforma": "Amazon Prime",
         "temporadas": 9,
         "genero": [
+            "Fantasía",
+            "Sci-Fi"
+        ],
+        "puntuacion": 8.3,
+        "finalizada": false,
+        "año_estreno": 2025
+    },
+    {
+        "_id": "6942dd601c871c98260b3402",
+        "titulo": "Voz",
+        "plataforma": "Netflix",
+        "temporadas": 10,
+        "genero": [
+            "Drama",
+            "Acción"
+        ],
+        "puntuacion": 9.3,
+        "finalizada": true,
+        "año_estreno": 2008
+    },
+    {
+        "_id": "6942dd601c871c98260b3408",
+        "titulo": "Hizo países entre",
+        "plataforma": "Apple TV+",
+        "temporadas": 10,
+        "genero": [
+            "Comedia",
+            "Acción"
+        ],
+        "puntuacion": 8.2,
+        "finalizada": true,
+        "año_estreno": 2001
+    },
+    {
+        "_id": "6942dd601c871c98260b3409",
+        "titulo": "Razón aumento vista cualquier",
+        "plataforma": "HBO",
+        "temporadas": 6,
+        "genero": [
+            "Comedia",
+            "Drama"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2007
+    },
+    {
+        "_id": "6942dd601c871c98260b340a",
+        "titulo": "Esa otras",
+        "plataforma": "Apple TV+",
+        "temporadas": 7,
+        "genero": [
             "Acción",
             "Drama"
         ],
-        "puntuacion": 9.1,
+        "puntuacion": 9.2,
         "finalizada": false,
-        "año_estreno": 2011
+        "año_estreno": 2003
     },
     {
-        "_id": "6942d83e372e2b9a90dcb47d",
-        "titulo": "Habían",
-        "plataforma": "Apple TV+",
-        "temporadas": 9,
+        "_id": "6942dd601c871c98260b340b",
+        "titulo": "Paciente gobierno atención",
+        "plataforma": "Amazon Prime",
+        "temporadas": 6,
         "genero": [
-            "Thriller",
-            "Acción"
+            "Comedia",
+            "Drama"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942dd601c871c98260b3410",
+        "titulo": "Difícil pudo buena",
+        "plataforma": "Apple TV+",
+        "temporadas": 10,
+        "genero": [
+            "Comedia",
+            "Sci-Fi"
         ],
         "puntuacion": 8.6,
-        "finalizada": false,
-        "año_estreno": 2000
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb485",
-        "titulo": "Jefe existen presidente",
-        "temporadas": 8,
-        "genero": [
-            "Sci-Fi",
-            "Comedia"
-        ],
-        "puntuacion": 8.2,
         "finalizada": false,
         "año_estreno": 2024
     },
     {
-        "_id": "6942d83e372e2b9a90dcb486",
-        "titulo": "Deben temas por",
-        "plataforma": "Amazon Prime",
+        "_id": "6942dd601c871c98260b3411",
+        "titulo": "Otros esas juez",
+        "plataforma": "HBO",
         "temporadas": 7,
         "genero": [
-            "Acción",
-            "Fantasía"
+            "Sci-Fi",
+            "Acción"
         ],
-        "puntuacion": 8.6,
-        "finalizada": true
+        "puntuacion": 8.8,
+        "finalizada": false,
+        "año_estreno": 2022
     },
     {
-        "_id": "6942d83e372e2b9a90dcb487",
-        "titulo": "Ese juan méxico",
+        "_id": "6942dd601c871c98260b341f",
+        "titulo": "Mí trata",
         "plataforma": "Disney+",
-        "temporadas": 7,
+        "temporadas": 8,
+        "genero": [
+            "Drama",
+            "Thriller"
+        ],
+        "puntuacion": 8.6,
+        "finalizada": false,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942dd601c871c98260b3425",
+        "titulo": "Análisis dicen origen",
+        "plataforma": "Apple TV+",
+        "temporadas": 10,
         "genero": [
             "Acción",
+            "Sci-Fi"
+        ],
+        "puntuacion": 8.2,
+        "finalizada": false,
+        "año_estreno": 2003
+    },
+    {
+        "_id": "6942dd601c871c98260b342c",
+        "titulo": "Diversas cinco",
+        "plataforma": "Disney+",
+        "temporadas": 8,
+        "genero": [
+            "Comedia",
+            "Acción"
+        ],
+        "puntuacion": 8.9,
+        "finalizada": true,
+        "año_estreno": 2013
+    },
+    {
+        "_id": "6942dd601c871c98260b3432",
+        "titulo": "Señora",
+        "temporadas": 10,
+        "genero": [
+            "Comedia",
+            "Fantasía"
+        ],
+        "puntuacion": 9.1,
+        "finalizada": true,
+        "año_estreno": 2019
+    },
+    {
+        "_id": "6942dd601c871c98260b3434",
+        "titulo": "Metros hablar el",
+        "temporadas": 6,
+        "genero": [
+            "Sci-Fi",
             "Comedia"
         ],
         "puntuacion": 8.4,
-        "finalizada": true
+        "finalizada": false,
+        "año_estreno": 2022
     },
     {
-        "_id": "6942d83e372e2b9a90dcb48b",
-        "titulo": "El somos",
-        "temporadas": 10,
+        "_id": "6942dd601c871c98260b3436",
+        "titulo": "Podemos uno",
+        "temporadas": 8,
         "genero": [
             "Sci-Fi",
             "Fantasía"
         ],
-        "puntuacion": 8.7,
-        "finalizada": true,
-        "año_estreno": 2002
+        "puntuacion": 8.3,
+        "finalizada": false,
+        "año_estreno": 2008
     }
 ]

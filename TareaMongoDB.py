@@ -5,7 +5,7 @@ from faker import Faker
 from random import randint, choice, uniform
 import json
 
-# PARTE 1
+print("--- PARTE 1 ---")
 
 # Configuración
 fake = Faker("es_ES")
@@ -23,14 +23,14 @@ uri = (
 
 cliente = MongoClient(uri)
 cliente.admin.command("ping")
-print("✅ Conectado a MongoDB Atlas")
+print("Conectado correctamente a MongoDB Atlas")
 
-# PARTE 2
+print("\n--- PARTE 2 ---")
 
 db = cliente["TV_StreamDB"]
-coleccion = db["series"]
+coleccion_series = db["series"]
 
-coleccion.delete_many({})
+coleccion_series.delete_many({})
 
 # Datos auxiliares
 plataformas = ["Netflix", "HBO", "Amazon Prime", "Disney+", "Apple TV+"]
@@ -51,7 +51,7 @@ for _ in range(50):
     }
     series_completas.append(serie)
 
-coleccion.insert_many(series_completas)
+coleccion_series.insert_many(series_completas)
 print("📺 50 series completas insertadas")
 
 # 10 series INCOMPLETAS
@@ -81,38 +81,38 @@ for _ in range(10):
 
     series_incompletas.append(serie)
 
-coleccion.insert_many(series_incompletas)
+coleccion_series.insert_many(series_incompletas)
 print(" 10 series incompletas insertadas")
 
 # Verificación
-print(" Total documentos:", coleccion.count_documents({}))
+print(" Total documentos:", coleccion_series.count_documents({}))
 
-# PARTE 3
+print("\n--- PARTE 3 ---")
 
 # Maratones Largas
 # Series con más de 5 temporadas y puntuación > 8.0
 print("\n Maratones Largas:")
-for serie in coleccion.find({"temporadas": {"$gt": 5}, "puntuacion": {"$gt": 8.0}}):
+for serie in coleccion_series.find({"temporadas": {"$gt": 5}, "puntuacion": {"$gt": 8.0}}):
     print(serie)
 
 # Joyas Recientes de Comedia
 # Series de género Comedia estrenadas a partir de 2020
 print("\n Joyas Recientes de Comedia:")
-for serie in coleccion.find({"genero": "Comedia", "año_estreno": {"$gte": 2020}}):
+for serie in coleccion_series.find({"genero": "Comedia", "año_estreno": {"$gte": 2020}}):
     print(serie)
 
 # Contenido Finalizado
 # Series donde finalizada == True
 print("\n Contenido Finalizado:")
-for serie in coleccion.find({"finalizada": True}):
+for serie in coleccion_series.find({"finalizada": True}):
     print(serie)
 
 # Elementos de la base de datos con el campo puntuación nulo
 print("\n Elementos de la base de datos con el campo puntuación nulo:")
-for serie in coleccion.find({"puntuacion": {"$exists": False}}):
+for serie in coleccion_series.find({"puntuacion": {"$exists": False}}):
     print(serie)
 
-# PARTE 4
+print("\n--- PARTE 4 ---")
 
 # Carpeta para tener más ordenado los archivos
 carpeta = "jsons"
@@ -122,7 +122,7 @@ if not os.path.exists(carpeta):
 
 # Función para exportar resultados
 def exportar_a_json_consultas(query, filename):
-    resultados = list(coleccion.find(query))
+    resultados = list(coleccion_series.find(query))
     for doc in resultados:
         doc['_id'] = str(doc['_id'])  # Convertir ObjectId a string
     ruta = os.path.join(carpeta, filename)
@@ -148,3 +148,76 @@ exportar_a_json_consultas(query_finalizadas, "series_finalizadas.json")
 # Consulta inventada: Elementos de la base de datos con el campo puntuación nulo
 query_inventada = {"puntuacion": {"$exists": False}}
 exportar_a_json_consultas(query_inventada, "inventada.json")
+
+print("\n--- PARTE 5 ---")
+
+# Consulta para obtener todas las series con puntuación no nula
+query = {"puntuacion": {"$exists": True}}
+series_con_puntuacion = coleccion_series.find(query)
+
+suma = 0
+contador = 0
+
+for serie in series_con_puntuacion:
+    suma += serie["puntuacion"]
+    contador += 1
+
+if contador > 0:
+    media = suma / contador
+    print(f"La media de puntuación de todas las series es: {media:.2f}")
+# Por si algún casual ninguna serie tuviera puntuación
+else:
+    print("No hay series con puntuación para calcular la media")
+
+print("\n--- PARTE 6 ---")
+
+coleccion_detalles = db["detalles_produccion"]
+
+# Limpiar colección nueva
+coleccion_detalles.delete_many({})
+
+fake = Faker("es_ES")
+paises = ["EE.UU.", "Corea del Sur", "España", "Reino Unido", "Canadá"]
+
+# Consulta para obtener los títulos de la colección series
+titulos = [serie["titulo"] for serie in coleccion_series.find({}, {"titulo": 1})]
+
+# Agregar a la nueva colección
+detalles_list = []
+
+for titulo in titulos:
+    detalle = {
+        "titulo": titulo,
+        "pais_origen": choice(paises),
+        "reparto_principal": [fake.name() for _ in range(3)],
+        "presupuesto_por_episodio": round(uniform(1.0, 10.0), 2)
+    }
+    detalles_list.append(detalle)
+
+coleccion_detalles.insert_many(detalles_list)
+print(f"Insertados {len(detalles_list)} documentos en detalles_produccion")
+
+resultados = []
+
+# Primera consulta en coleccion_series
+# Series que estén finalizadas y con puntuación > 8.0
+series_filtradas = coleccion_series.find({"finalizada": True, "puntuacion": {"$gt": 8.0}})
+
+# Segunda consulta en detalles_produccion
+# Usando la lista del primer filtro de las series, usando el nombre de estas hacer
+# la segunda consulta
+for serie in series_filtradas:
+    detalle = coleccion_detalles.find_one({"titulo": serie["titulo"], "pais_origen": "EE.UU."})
+    if detalle:
+        resultados.append({
+            "titulo": serie["titulo"],
+            "puntuacion": serie["puntuacion"],
+            "pais_origen": detalle["pais_origen"],
+            "reparto_principal": detalle["reparto_principal"],
+            "presupuesto_por_episodio": detalle["presupuesto_por_episodio"]
+        })
+
+# Mostrar resultados
+print(f"\nSeries finalizadas, puntuación > 8 y país EE.UU.: {len(resultados)}")
+for serie in resultados:
+    print(serie)

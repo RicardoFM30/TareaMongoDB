@@ -1,39 +1,117 @@
 [
     {
-        "_id": "6942d83e372e2b9a90dcb456",
-        "titulo": "Empresas explicó",
-        "plataforma": "Apple TV+",
+        "_id": "6942dd601c871c98260b3404",
+        "titulo": "Mirada ir",
+        "plataforma": "HBO",
         "temporadas": 3,
         "genero": [
             "Thriller",
             "Comedia"
         ],
-        "puntuacion": 6.7,
+        "puntuacion": 7.2,
         "finalizada": false,
-        "año_estreno": 2020
+        "año_estreno": 2024
     },
     {
-        "_id": "6942d83e372e2b9a90dcb482",
-        "titulo": "Soy donde",
-        "plataforma": "Netflix",
+        "_id": "6942dd601c871c98260b340b",
+        "titulo": "Paciente gobierno atención",
+        "plataforma": "Amazon Prime",
+        "temporadas": 6,
         "genero": [
-            "Drama",
-            "Comedia"
+            "Comedia",
+            "Drama"
         ],
-        "puntuacion": 9.4,
-        "finalizada": false,
+        "puntuacion": 8.7,
+        "finalizada": true,
         "año_estreno": 2021
     },
     {
-        "_id": "6942d83e372e2b9a90dcb485",
-        "titulo": "Jefe existen presidente",
-        "temporadas": 8,
+        "_id": "6942dd601c871c98260b340c",
+        "titulo": "Española etapa medios",
+        "plataforma": "Disney+",
+        "temporadas": 10,
         "genero": [
             "Sci-Fi",
             "Comedia"
         ],
-        "puntuacion": 8.2,
+        "puntuacion": 6.1,
         "finalizada": false,
         "año_estreno": 2024
+    },
+    {
+        "_id": "6942dd601c871c98260b340d",
+        "titulo": "Fuego corte quedó",
+        "plataforma": "Apple TV+",
+        "temporadas": 8,
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "puntuacion": 6.9,
+        "finalizada": false,
+        "año_estreno": 2025
+    },
+    {
+        "_id": "6942dd601c871c98260b3410",
+        "titulo": "Difícil pudo buena",
+        "plataforma": "Apple TV+",
+        "temporadas": 10,
+        "genero": [
+            "Comedia",
+            "Sci-Fi"
+        ],
+        "puntuacion": 8.6,
+        "finalizada": false,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942dd601c871c98260b3420",
+        "titulo": "Política electoral deben",
+        "plataforma": "Amazon Prime",
+        "temporadas": 2,
+        "genero": [
+            "Comedia",
+            "Thriller"
+        ],
+        "puntuacion": 7.5,
+        "finalizada": false,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942dd601c871c98260b3421",
+        "titulo": "Tener texto",
+        "plataforma": "HBO",
+        "temporadas": 10,
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "puntuacion": 6.9,
+        "finalizada": false,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942dd601c871c98260b3434",
+        "titulo": "Metros hablar el",
+        "temporadas": 6,
+        "genero": [
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 8.4,
+        "finalizada": false,
+        "año_estreno": 2022
+    },
+    {
+        "_id": "6942dd601c871c98260b3437",
+        "titulo": "Ser médico",
+        "plataforma": "Apple TV+",
+        "temporadas": 3,
+        "genero": [
+            "Drama",
+            "Comedia"
+        ],
+        "finalizada": false,
+        "año_estreno": 2021
     }
 ]

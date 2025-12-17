@@ -1,38 +1,38 @@
 [
     {
-        "_id": "6942d83e372e2b9a90dcb483",
-        "titulo": "Ya alguien",
-        "plataforma": "Disney+",
-        "temporadas": 1,
+        "_id": "6942dd601c871c98260b3433",
+        "titulo": "Máximo capacidad",
+        "plataforma": "Amazon Prime",
+        "temporadas": 3,
         "genero": [
             "Acción",
-            "Thriller"
+            "Comedia"
         ],
         "finalizada": true,
-        "año_estreno": 2011
+        "año_estreno": 2000
     },
     {
-        "_id": "6942d83e372e2b9a90dcb484",
-        "titulo": "Productos vez iglesia",
-        "plataforma": "Netflix",
-        "temporadas": 4,
+        "_id": "6942dd601c871c98260b3437",
+        "titulo": "Ser médico",
+        "plataforma": "Apple TV+",
+        "temporadas": 3,
+        "genero": [
+            "Drama",
+            "Comedia"
+        ],
+        "finalizada": false,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942dd601c871c98260b3439",
+        "titulo": "Posición dice",
+        "plataforma": "Apple TV+",
+        "temporadas": 7,
         "genero": [
             "Drama",
             "Sci-Fi"
         ],
-        "finalizada": false,
-        "año_estreno": 2001
-    },
-    {
-        "_id": "6942d83e372e2b9a90dcb488",
-        "titulo": "Entrada real control",
-        "plataforma": "Netflix",
-        "temporadas": 6,
-        "genero": [
-            "Comedia",
-            "Drama"
-        ],
-        "finalizada": false,
-        "año_estreno": 2019
+        "finalizada": true,
+        "año_estreno": 2023
     }
 ]
