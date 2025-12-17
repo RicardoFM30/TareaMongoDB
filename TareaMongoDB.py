@@ -228,6 +228,9 @@ print("\n--- PARTE 7 ---")
 
 resultados = list(coleccion_series.aggregate([
     {
+        "$match": {"temporadas": {"$exists": True, "$ne": None}}  # Excluir vacíos
+    },
+    {
         "$lookup": {
             "from": "detalles_produccion",
             "localField": "titulo",
@@ -247,6 +250,12 @@ resultados = list(coleccion_series.aggregate([
     }
 ]))
 
+# Imprimir por pantalla
+print("Coste total de cada serie:")
+for serie in resultados:
+    print(f"{serie['titulo']}: {serie['coste_total']} millones")
+
+# Guardar en json
 ruta_json = os.path.join(carpeta, "gasto_series.json")
 with open(ruta_json, "w", encoding="utf-8") as f:
     json.dump(resultados, f, ensure_ascii=False, indent=4)

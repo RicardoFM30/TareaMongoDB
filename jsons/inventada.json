@@ -1,14 +1,26 @@
 [
     {
-        "_id": "6942e96676ebeab087605595",
-        "titulo": "Diferencia etapa partido",
-        "plataforma": "Netflix",
+        "_id": "6942ed163db2179b2db8b87a",
+        "titulo": "Ese",
+        "plataforma": "Disney+",
         "temporadas": 6,
         "genero": [
-            "Fantasía",
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "finalizada": false,
+        "año_estreno": 2007
+    },
+    {
+        "_id": "6942ed163db2179b2db8b880",
+        "titulo": "Civil precios",
+        "plataforma": "Disney+",
+        "temporadas": 5,
+        "genero": [
+            "Sci-Fi",
             "Drama"
         ],
-        "finalizada": true,
-        "año_estreno": 2024
+        "finalizada": false,
+        "año_estreno": 2022
     }
 ]
