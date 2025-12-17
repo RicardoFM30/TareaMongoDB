@@ -1,474 +1,364 @@
 [
     {
-        "_id": "6942e0d1b70554d7dab1d2e8",
-        "titulo": "Especie nuestras",
+        "_id": "6942e96676ebeab08760555d",
+        "titulo": "Mismo sea",
+        "plataforma": "Amazon Prime",
+        "temporadas": 5,
+        "genero": [
+            "Acción",
+            "Fantasía"
+        ],
+        "puntuacion": 9.2,
+        "finalizada": true,
+        "año_estreno": 2002
+    },
+    {
+        "_id": "6942e96676ebeab087605561",
+        "titulo": "Voz he",
         "plataforma": "HBO",
-        "temporadas": 6,
+        "temporadas": 4,
+        "genero": [
+            "Drama",
+            "Acción"
+        ],
+        "puntuacion": 8.8,
+        "finalizada": true,
+        "año_estreno": 2012
+    },
+    {
+        "_id": "6942e96676ebeab087605562",
+        "titulo": "Mismo",
+        "plataforma": "HBO",
+        "temporadas": 7,
         "genero": [
             "Thriller",
             "Comedia"
         ],
-        "puntuacion": 7.7,
+        "puntuacion": 9.2,
         "finalizada": true,
-        "año_estreno": 2003
+        "año_estreno": 2015
     },
     {
-        "_id": "6942e0d1b70554d7dab1d2eb",
-        "titulo": "Semana peso pasa voz",
-        "plataforma": "Netflix",
-        "temporadas": 1,
-        "genero": [
-            "Sci-Fi",
-            "Thriller"
-        ],
-        "puntuacion": 9.0,
-        "finalizada": true,
-        "año_estreno": 2004
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2ec",
-        "titulo": "Acerca desde campo cuestión",
-        "plataforma": "Disney+",
-        "temporadas": 7,
-        "genero": [
-            "Sci-Fi",
-            "Fantasía"
-        ],
-        "puntuacion": 6.4,
-        "finalizada": true,
-        "año_estreno": 2000
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2ed",
-        "titulo": "Económica través niños",
+        "_id": "6942e96676ebeab087605564",
+        "titulo": "Aspectos siendo",
         "plataforma": "Apple TV+",
-        "temporadas": 9,
+        "temporadas": 8,
         "genero": [
             "Fantasía",
-            "Thriller"
+            "Drama"
         ],
-        "puntuacion": 6.6,
-        "finalizada": true,
-        "año_estreno": 2005
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2ee",
-        "titulo": "Mucha",
-        "plataforma": "HBO",
-        "temporadas": 9,
-        "genero": [
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "puntuacion": 7.0,
+        "puntuacion": 6.5,
         "finalizada": true,
         "año_estreno": 2009
     },
     {
-        "_id": "6942e0d1b70554d7dab1d2ef",
-        "titulo": "Nuestro garcía vio",
+        "_id": "6942e96676ebeab087605567",
+        "titulo": "Revolución carlos",
         "plataforma": "HBO",
-        "temporadas": 3,
+        "temporadas": 10,
         "genero": [
             "Acción",
-            "Drama"
+            "Comedia"
         ],
-        "puntuacion": 7.4,
+        "puntuacion": 8.5,
         "finalizada": true,
-        "año_estreno": 2003
+        "año_estreno": 2017
     },
     {
-        "_id": "6942e0d1b70554d7dab1d2f0",
-        "titulo": "Objetivo siquiera energía",
+        "_id": "6942e96676ebeab087605568",
+        "titulo": "Siquiera alguien cuerpo jóvenes",
+        "plataforma": "Netflix",
+        "temporadas": 5,
+        "genero": [
+            "Thriller",
+            "Acción"
+        ],
+        "puntuacion": 7.1,
+        "finalizada": true,
+        "año_estreno": 2026
+    },
+    {
+        "_id": "6942e96676ebeab087605569",
+        "titulo": "Le civil",
+        "plataforma": "Amazon Prime",
+        "temporadas": 9,
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "puntuacion": 6.8,
+        "finalizada": true,
+        "año_estreno": 2000
+    },
+    {
+        "_id": "6942e96676ebeab08760556b",
+        "titulo": "Punto todavía población",
+        "plataforma": "Disney+",
+        "temporadas": 8,
+        "genero": [
+            "Sci-Fi",
+            "Fantasía"
+        ],
+        "puntuacion": 6.2,
+        "finalizada": true,
+        "año_estreno": 2014
+    },
+    {
+        "_id": "6942e96676ebeab08760556c",
+        "titulo": "Difícil grupos",
+        "plataforma": "HBO",
+        "temporadas": 10,
+        "genero": [
+            "Drama",
+            "Acción"
+        ],
+        "puntuacion": 8.5,
+        "finalizada": true,
+        "año_estreno": 2017
+    },
+    {
+        "_id": "6942e96676ebeab08760556e",
+        "titulo": "Especie nuestros vuelta",
         "plataforma": "Apple TV+",
         "temporadas": 1,
         "genero": [
-            "Acción",
-            "Fantasía"
+            "Sci-Fi",
+            "Comedia"
+        ],
+        "puntuacion": 8.3,
+        "finalizada": true,
+        "año_estreno": 2015
+    },
+    {
+        "_id": "6942e96676ebeab08760556f",
+        "titulo": "Futuro grande cuerpo",
+        "plataforma": "Netflix",
+        "temporadas": 10,
+        "genero": [
+            "Fantasía",
+            "Drama"
+        ],
+        "puntuacion": 8.7,
+        "finalizada": true,
+        "año_estreno": 2017
+    },
+    {
+        "_id": "6942e96676ebeab087605570",
+        "titulo": "Comunidad tu",
+        "plataforma": "HBO",
+        "temporadas": 4,
+        "genero": [
+            "Thriller",
+            "Acción"
+        ],
+        "puntuacion": 8.3,
+        "finalizada": true,
+        "año_estreno": 2009
+    },
+    {
+        "_id": "6942e96676ebeab087605574",
+        "titulo": "Sala miembros",
+        "plataforma": "HBO",
+        "temporadas": 3,
+        "genero": [
+            "Drama",
+            "Comedia"
         ],
         "puntuacion": 8.6,
         "finalizada": true,
         "año_estreno": 2007
     },
     {
-        "_id": "6942e0d1b70554d7dab1d2f4",
-        "titulo": "París encuentro espacio",
-        "plataforma": "Apple TV+",
-        "temporadas": 5,
+        "_id": "6942e96676ebeab087605575",
+        "titulo": "Objeto los",
+        "plataforma": "Amazon Prime",
+        "temporadas": 3,
         "genero": [
-            "Thriller",
+            "Comedia",
             "Sci-Fi"
         ],
-        "puntuacion": 8.7,
+        "puntuacion": 6.4,
         "finalizada": true,
-        "año_estreno": 2018
+        "año_estreno": 2008
     },
     {
-        "_id": "6942e0d1b70554d7dab1d2f5",
-        "titulo": "Formas",
-        "plataforma": "Disney+",
-        "temporadas": 7,
-        "genero": [
-            "Fantasía",
-            "Thriller"
-        ],
-        "puntuacion": 7.8,
-        "finalizada": true,
-        "año_estreno": 2011
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2f6",
-        "titulo": "Cultura ni luis",
-        "plataforma": "Apple TV+",
+        "_id": "6942e96676ebeab087605576",
+        "titulo": "Seis bueno san operación",
+        "plataforma": "HBO",
         "temporadas": 1,
         "genero": [
-            "Sci-Fi",
+            "Thriller",
             "Acción"
         ],
         "puntuacion": 8.6,
         "finalizada": true,
-        "año_estreno": 2002
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2f8",
-        "titulo": "Mar reforma",
-        "plataforma": "Amazon Prime",
-        "temporadas": 3,
-        "genero": [
-            "Comedia",
-            "Drama"
-        ],
-        "puntuacion": 7.0,
-        "finalizada": true,
-        "año_estreno": 2020
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2f9",
-        "titulo": "Aparece",
-        "plataforma": "Amazon Prime",
-        "temporadas": 10,
-        "genero": [
-            "Drama",
-            "Sci-Fi"
-        ],
-        "puntuacion": 8.8,
-        "finalizada": true,
         "año_estreno": 2017
     },
     {
-        "_id": "6942e0d1b70554d7dab1d2fb",
-        "titulo": "Han flores",
-        "plataforma": "Disney+",
-        "temporadas": 9,
-        "genero": [
-            "Sci-Fi",
-            "Drama"
-        ],
-        "puntuacion": 6.5,
-        "finalizada": true,
-        "año_estreno": 2009
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2fd",
-        "titulo": "Prensa etapa países",
-        "plataforma": "Netflix",
-        "temporadas": 1,
-        "genero": [
-            "Sci-Fi",
-            "Acción"
-        ],
-        "puntuacion": 7.9,
-        "finalizada": true,
-        "año_estreno": 2000
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d302",
-        "titulo": "Respecto programa",
-        "plataforma": "Disney+",
-        "temporadas": 8,
-        "genero": [
-            "Thriller",
-            "Drama"
-        ],
-        "puntuacion": 7.5,
-        "finalizada": true,
-        "año_estreno": 2002
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d306",
-        "titulo": "Noviembre productos asociación",
-        "plataforma": "Netflix",
-        "temporadas": 3,
-        "genero": [
-            "Acción",
-            "Comedia"
-        ],
-        "puntuacion": 7.4,
-        "finalizada": true,
-        "año_estreno": 2010
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d307",
-        "titulo": "Campo libros especial tribunal",
-        "plataforma": "HBO",
-        "temporadas": 9,
-        "genero": [
-            "Comedia",
-            "Thriller"
-        ],
-        "puntuacion": 6.2,
-        "finalizada": true,
-        "año_estreno": 2005
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d308",
-        "titulo": "Amigos través",
-        "plataforma": "Disney+",
-        "temporadas": 5,
-        "genero": [
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "puntuacion": 6.9,
-        "finalizada": true,
-        "año_estreno": 2022
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d30a",
-        "titulo": "Obra",
-        "plataforma": "HBO",
-        "temporadas": 7,
-        "genero": [
-            "Acción",
-            "Thriller"
-        ],
-        "puntuacion": 8.7,
-        "finalizada": true,
-        "año_estreno": 2023
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d30b",
-        "titulo": "Estas participación existen",
-        "plataforma": "HBO",
-        "temporadas": 10,
-        "genero": [
-            "Drama",
-            "Sci-Fi"
-        ],
-        "puntuacion": 9.1,
-        "finalizada": true,
-        "año_estreno": 2023
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d30c",
-        "titulo": "Prueba nada",
-        "plataforma": "Amazon Prime",
+        "_id": "6942e96676ebeab087605577",
+        "titulo": "Sé recursos plan",
+        "plataforma": "Apple TV+",
         "temporadas": 4,
         "genero": [
             "Drama",
-            "Fantasía"
+            "Acción"
         ],
-        "puntuacion": 8.8,
+        "puntuacion": 8.5,
         "finalizada": true,
         "año_estreno": 2019
     },
     {
-        "_id": "6942e0d1b70554d7dab1d30d",
-        "titulo": "Todas dos dios",
-        "plataforma": "HBO",
+        "_id": "6942e96676ebeab08760557c",
+        "titulo": "Prueba",
+        "plataforma": "Apple TV+",
         "temporadas": 6,
         "genero": [
             "Sci-Fi",
             "Thriller"
         ],
-        "puntuacion": 7.0,
+        "puntuacion": 9.4,
+        "finalizada": true,
+        "año_estreno": 2010
+    },
+    {
+        "_id": "6942e96676ebeab08760557d",
+        "titulo": "Debido fuera",
+        "plataforma": "Disney+",
+        "temporadas": 5,
+        "genero": [
+            "Comedia",
+            "Thriller"
+        ],
+        "puntuacion": 9.0,
+        "finalizada": true,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942e96676ebeab08760557f",
+        "titulo": "García ejército",
+        "plataforma": "Netflix",
+        "temporadas": 4,
+        "genero": [
+            "Fantasía",
+            "Sci-Fi"
+        ],
+        "puntuacion": 9.4,
+        "finalizada": true,
+        "año_estreno": 2023
+    },
+    {
+        "_id": "6942e96676ebeab087605581",
+        "titulo": "J saber",
+        "plataforma": "Amazon Prime",
+        "temporadas": 7,
+        "genero": [
+            "Fantasía",
+            "Drama"
+        ],
+        "puntuacion": 6.1,
+        "finalizada": true,
+        "año_estreno": 2016
+    },
+    {
+        "_id": "6942e96676ebeab087605582",
+        "titulo": "Valor zona",
+        "plataforma": "Amazon Prime",
+        "temporadas": 3,
+        "genero": [
+            "Sci-Fi",
+            "Acción"
+        ],
+        "puntuacion": 7.1,
+        "finalizada": true,
+        "año_estreno": 2022
+    },
+    {
+        "_id": "6942e96676ebeab087605584",
+        "titulo": "Revolución reforma mercado finalmente",
+        "plataforma": "Disney+",
+        "temporadas": 1,
+        "genero": [
+            "Comedia",
+            "Drama"
+        ],
+        "puntuacion": 8.9,
+        "finalizada": true,
+        "año_estreno": 2008
+    },
+    {
+        "_id": "6942e96676ebeab087605586",
+        "titulo": "Estas mundo",
+        "plataforma": "Amazon Prime",
+        "temporadas": 10,
+        "genero": [
+            "Fantasía",
+            "Sci-Fi"
+        ],
+        "puntuacion": 9.0,
+        "finalizada": true,
+        "año_estreno": 2026
+    },
+    {
+        "_id": "6942e96676ebeab087605587",
+        "titulo": "Sola falta",
+        "plataforma": "Disney+",
+        "temporadas": 2,
+        "genero": [
+            "Fantasía",
+            "Acción"
+        ],
+        "puntuacion": 8.6,
         "finalizada": true,
         "año_estreno": 2006
     },
     {
-        "_id": "6942e0d1b70554d7dab1d30e",
-        "titulo": "Libre",
-        "plataforma": "Netflix",
-        "temporadas": 1,
+        "_id": "6942e96676ebeab087605588",
+        "titulo": "Obra cuales",
+        "plataforma": "Amazon Prime",
+        "temporadas": 7,
         "genero": [
-            "Drama",
-            "Fantasía"
+            "Acción",
+            "Comedia"
         ],
-        "puntuacion": 8.3,
+        "puntuacion": 8.5,
         "finalizada": true,
-        "año_estreno": 2000
+        "año_estreno": 2021
     },
     {
-        "_id": "6942e0d1b70554d7dab1d30f",
-        "titulo": "Esta familia han",
-        "plataforma": "Apple TV+",
+        "_id": "6942e96676ebeab08760558b",
+        "titulo": "Cuya especie grande consejo",
+        "plataforma": "Disney+",
         "temporadas": 9,
         "genero": [
-            "Comedia",
-            "Acción"
+            "Sci-Fi",
+            "Thriller"
         ],
-        "puntuacion": 9.0,
+        "puntuacion": 8.4,
         "finalizada": true,
-        "año_estreno": 2022
+        "año_estreno": 2008
     },
     {
-        "_id": "6942e0d1b70554d7dab1d310",
-        "titulo": "Participación cosa",
-        "plataforma": "Disney+",
-        "temporadas": 10,
+        "_id": "6942e96676ebeab087605595",
+        "titulo": "Diferencia etapa partido",
+        "plataforma": "Netflix",
+        "temporadas": 6,
+        "genero": [
+            "Fantasía",
+            "Drama"
+        ],
+        "finalizada": true,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942e96676ebeab087605597",
+        "titulo": "Posible carrera española sistema",
+        "temporadas": 1,
         "genero": [
             "Drama",
-            "Thriller"
-        ],
-        "puntuacion": 9.1,
-        "finalizada": true,
-        "año_estreno": 2016
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d314",
-        "titulo": "Política llegó",
-        "plataforma": "Apple TV+",
-        "temporadas": 2,
-        "genero": [
-            "Fantasía",
-            "Sci-Fi"
-        ],
-        "puntuacion": 9.4,
-        "finalizada": true,
-        "año_estreno": 2013
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d315",
-        "titulo": "Vamos eso cómo",
-        "plataforma": "Amazon Prime",
-        "temporadas": 1,
-        "genero": [
-            "Fantasía",
-            "Drama"
-        ],
-        "puntuacion": 9.4,
-        "finalizada": true,
-        "año_estreno": 2022
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d316",
-        "titulo": "Juicio cambios zonas pablo",
-        "plataforma": "Amazon Prime",
-        "temporadas": 2,
-        "genero": [
-            "Comedia",
-            "Acción"
-        ],
-        "puntuacion": 8.0,
-        "finalizada": true,
-        "año_estreno": 2004
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d317",
-        "titulo": "Tierra secretario lugar",
-        "plataforma": "HBO",
-        "temporadas": 10,
-        "genero": [
-            "Sci-Fi",
-            "Drama"
-        ],
-        "puntuacion": 7.5,
-        "finalizada": true,
-        "año_estreno": 2014
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d318",
-        "titulo": "Nacional cuerpo uso sala",
-        "plataforma": "Amazon Prime",
-        "temporadas": 2,
-        "genero": [
-            "Thriller",
             "Fantasía"
         ],
-        "puntuacion": 7.4,
+        "puntuacion": 6.9,
         "finalizada": true,
-        "año_estreno": 2015
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d319",
-        "titulo": "Conseguir otros",
-        "plataforma": "Disney+",
-        "temporadas": 2,
-        "genero": [
-            "Thriller",
-            "Fantasía"
-        ],
-        "puntuacion": 6.6,
-        "finalizada": true,
-        "año_estreno": 2015
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d31a",
-        "titulo": "Voy existen nuevo",
-        "plataforma": "HBO",
-        "temporadas": 1,
-        "genero": [
-            "Fantasía",
-            "Thriller"
-        ],
-        "puntuacion": 7.0,
-        "finalizada": true
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d31b",
-        "titulo": "Cabo análisis",
-        "plataforma": "Netflix",
-        "temporadas": 5,
-        "genero": [
-            "Acción",
-            "Thriller"
-        ],
-        "finalizada": true,
-        "año_estreno": 2016
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d31d",
-        "titulo": "Marco sabe cual",
-        "plataforma": "Apple TV+",
-        "genero": [
-            "Thriller",
-            "Fantasía"
-        ],
-        "puntuacion": 7.1,
-        "finalizada": true,
-        "año_estreno": 2025
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d31f",
-        "titulo": "Sería los acciones",
-        "plataforma": "Amazon Prime",
-        "temporadas": 4,
-        "genero": [
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "finalizada": true,
-        "año_estreno": 2005
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d320",
-        "titulo": "Particular sociales unión",
-        "plataforma": "Disney+",
-        "temporadas": 5,
-        "genero": [
-            "Acción",
-            "Thriller"
-        ],
-        "puntuacion": 9.1,
-        "finalizada": true
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d323",
-        "titulo": "Precios ojos otra",
-        "plataforma": "HBO",
-        "temporadas": 6,
-        "puntuacion": 6.5,
-        "finalizada": true,
-        "año_estreno": 2026
+        "año_estreno": 2000
     }
 ]

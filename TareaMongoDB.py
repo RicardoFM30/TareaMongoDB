@@ -223,3 +223,32 @@ resultados = list(coleccion_series.aggregate([
 print(f"\nSeries finalizadas, puntuación > 8 y país EE.UU.: {len(resultados)}")
 for serie in resultados:
     print(serie)
+
+print("\n--- PARTE 7 ---")
+
+resultados = list(coleccion_series.aggregate([
+    {
+        "$lookup": {
+            "from": "detalles_produccion",
+            "localField": "titulo",
+            "foreignField": "titulo",
+            "as": "detalle"
+        }
+    },
+    {"$unwind": "$detalle"},
+    {
+        "$project": {
+            "_id": 0,
+            "titulo": 1,
+            "coste_total": {
+                "$multiply": ["$detalle.presupuesto_por_episodio", "$temporadas", 8]
+            }
+        }
+    }
+]))
+
+ruta_json = os.path.join(carpeta, "gasto_series.json")
+with open(ruta_json, "w", encoding="utf-8") as f:
+    json.dump(resultados, f, ensure_ascii=False, indent=4)
+
+print(f"Se han guardado {len(resultados)} registros en {ruta_json}")

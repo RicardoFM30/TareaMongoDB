@@ -1,38 +1,14 @@
 [
     {
-        "_id": "6942e0d1b70554d7dab1d31b",
-        "titulo": "Cabo análisis",
+        "_id": "6942e96676ebeab087605595",
+        "titulo": "Diferencia etapa partido",
         "plataforma": "Netflix",
-        "temporadas": 5,
+        "temporadas": 6,
         "genero": [
-            "Acción",
-            "Thriller"
+            "Fantasía",
+            "Drama"
         ],
         "finalizada": true,
-        "año_estreno": 2016
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d31f",
-        "titulo": "Sería los acciones",
-        "plataforma": "Amazon Prime",
-        "temporadas": 4,
-        "genero": [
-            "Thriller",
-            "Sci-Fi"
-        ],
-        "finalizada": true,
-        "año_estreno": 2005
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d321",
-        "titulo": "Sé muy ministro",
-        "plataforma": "Amazon Prime",
-        "temporadas": 3,
-        "genero": [
-            "Comedia",
-            "Fantasía"
-        ],
-        "finalizada": false,
-        "año_estreno": 2005
+        "año_estreno": 2024
     }
 ]

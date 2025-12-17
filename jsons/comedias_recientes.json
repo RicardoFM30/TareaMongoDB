@@ -1,53 +1,54 @@
 [
     {
-        "_id": "6942e0d1b70554d7dab1d2f8",
-        "titulo": "Mar reforma",
-        "plataforma": "Amazon Prime",
-        "temporadas": 3,
-        "genero": [
-            "Comedia",
-            "Drama"
-        ],
-        "puntuacion": 7.0,
-        "finalizada": true,
-        "año_estreno": 2020
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d2fc",
-        "titulo": "Hacia c",
+        "_id": "6942e96676ebeab087605560",
+        "titulo": "Mujeres",
         "plataforma": "HBO",
-        "temporadas": 10,
-        "genero": [
-            "Comedia",
-            "Fantasía"
-        ],
-        "puntuacion": 9.0,
-        "finalizada": false,
-        "año_estreno": 2026
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d30f",
-        "titulo": "Esta familia han",
-        "plataforma": "Apple TV+",
-        "temporadas": 9,
-        "genero": [
-            "Comedia",
-            "Acción"
-        ],
-        "puntuacion": 9.0,
-        "finalizada": true,
-        "año_estreno": 2022
-    },
-    {
-        "_id": "6942e0d1b70554d7dab1d322",
-        "titulo": "Yo dios ex",
-        "plataforma": "Netflix",
+        "temporadas": 6,
         "genero": [
             "Comedia",
             "Thriller"
         ],
-        "puntuacion": 9.4,
+        "puntuacion": 8.1,
+        "finalizada": false,
+        "año_estreno": 2021
+    },
+    {
+        "_id": "6942e96676ebeab087605571",
+        "titulo": "Poner tanto voluntad",
+        "plataforma": "Apple TV+",
+        "temporadas": 1,
+        "genero": [
+            "Comedia",
+            "Acción"
+        ],
+        "puntuacion": 9.3,
         "finalizada": false,
         "año_estreno": 2024
+    },
+    {
+        "_id": "6942e96676ebeab08760557d",
+        "titulo": "Debido fuera",
+        "plataforma": "Disney+",
+        "temporadas": 5,
+        "genero": [
+            "Comedia",
+            "Thriller"
+        ],
+        "puntuacion": 9.0,
+        "finalizada": true,
+        "año_estreno": 2024
+    },
+    {
+        "_id": "6942e96676ebeab087605588",
+        "titulo": "Obra cuales",
+        "plataforma": "Amazon Prime",
+        "temporadas": 7,
+        "genero": [
+            "Acción",
+            "Comedia"
+        ],
+        "puntuacion": 8.5,
+        "finalizada": true,
+        "año_estreno": 2021
     }
 ]
